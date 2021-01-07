@@ -4,8 +4,8 @@ class Waiter
   @@all = [ ]
 
   def initialize (name, age)
-    @name = "Ian"
-    @age = "3"
+    @name = name
+    @age = age
   end
 
   def self.all
