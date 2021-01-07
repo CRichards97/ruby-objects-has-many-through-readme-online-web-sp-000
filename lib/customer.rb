@@ -44,5 +44,5 @@ attr_accessor :name, :age
     end
     oldest_customer
   end
-  
+
 end
