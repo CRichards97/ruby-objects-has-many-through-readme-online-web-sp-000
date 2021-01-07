@@ -14,15 +14,15 @@ class Customer
     @@all
   end
 
-  def meal
+  def meals
     Meal.all.select do |meal|
       meals.customer == self
     end
   end
 
   def waiters
-    meal.map do |meal|
-      meal.waiter
+    meals.map do |meal|
+      meals.waiter
     end
   end
 
