@@ -30,7 +30,7 @@ describe "Basic class structures" do
   describe "Waiter" do
     describe "#new" do
       it "initializes with a name and years of experience" do
-        expect{Waiter.new("Ian", 3)}.to_not raise_error
+        expect{Waiter.new("Ian", 30)}.to_not raise_error
       end
     end
   
